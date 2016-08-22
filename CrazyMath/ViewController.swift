@@ -37,6 +37,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         dapAn = randomPosition(setRandom())
         start()
+        timer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: Selector("countDown"), userInfo: nil, repeats: true)
     }
     func countDown() {
         time = time - 1
@@ -50,11 +51,11 @@ class ViewController: UIViewController {
     }
     func start(){
         time = 10
-        timer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: Selector("countDown"), userInfo: nil, repeats: true)
+        
         
     }
     func resetTimer() {
-        timer.invalidate()
+//        timer.invalidate()
     }
     
     @IBAction func btn1(sender: UIButton) {
@@ -112,8 +113,8 @@ class ViewController: UIViewController {
     
     func setRandom()-> Int {
         var result : Int = 0
-        let random1 = Int(arc4random_uniform(9)+1)
-        let random2 = Int(arc4random_uniform(9)+1)
+        let random1 = Int(arc4random_uniform(5)+1)
+        let random2 = Int(arc4random_uniform(5)+1)
         let randomDau = Int(arc4random_uniform(3)+1)
         lbNum1.text = String(random1)
         lbNum2.text = String(random2)
