@@ -13,6 +13,11 @@
 		545402961D64A4AF005438FB /* CrazyMath.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 545402941D64A4AF005438FB /* CrazyMath.xcdatamodeld */; };
 		545402981D64A4AF005438FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 545402971D64A4AF005438FB /* Assets.xcassets */; };
 		5454029B1D64A4AF005438FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 545402991D64A4AF005438FB /* LaunchScreen.storyboard */; };
+		54E42DD91D6588C000C82208 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 54E42DD41D6588C000C82208 /* board.png */; };
+		54E42DDA1D6588C000C82208 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54E42DD51D6588C000C82208 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg */; };
+		54E42DDB1D6588C000C82208 /* note1.png in Resources */ = {isa = PBXBuildFile; fileRef = 54E42DD61D6588C000C82208 /* note1.png */; };
+		54E42DDC1D6588C000C82208 /* note2.png in Resources */ = {isa = PBXBuildFile; fileRef = 54E42DD71D6588C000C82208 /* note2.png */; };
+		54E42DDD1D6588C000C82208 /* note3.png in Resources */ = {isa = PBXBuildFile; fileRef = 54E42DD81D6588C000C82208 /* note3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		545402971D64A4AF005438FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5454029A1D64A4AF005438FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5454029C1D64A4AF005438FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54E42DD41D6588C000C82208 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		54E42DD51D6588C000C82208 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cartoon-Springs-PPT-Backgrounds-1024x768.jpg"; sourceTree = "<group>"; };
+		54E42DD61D6588C000C82208 /* note1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note1.png; sourceTree = "<group>"; };
+		54E42DD71D6588C000C82208 /* note2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note2.png; sourceTree = "<group>"; };
+		54E42DD81D6588C000C82208 /* note3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +73,21 @@
 				545402991D64A4AF005438FB /* LaunchScreen.storyboard */,
 				5454029C1D64A4AF005438FB /* Info.plist */,
 				545402941D64A4AF005438FB /* CrazyMath.xcdatamodeld */,
+				54E42DD31D6588AA00C82208 /* resource */,
 			);
 			path = CrazyMath;
+			sourceTree = "<group>";
+		};
+		54E42DD31D6588AA00C82208 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				54E42DD41D6588C000C82208 /* board.png */,
+				54E42DD51D6588C000C82208 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg */,
+				54E42DD61D6588C000C82208 /* note1.png */,
+				54E42DD71D6588C000C82208 /* note2.png */,
+				54E42DD81D6588C000C82208 /* note3.png */,
+			);
+			name = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +148,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54E42DD91D6588C000C82208 /* board.png in Resources */,
 				5454029B1D64A4AF005438FB /* LaunchScreen.storyboard in Resources */,
 				545402981D64A4AF005438FB /* Assets.xcassets in Resources */,
+				54E42DDC1D6588C000C82208 /* note2.png in Resources */,
+				54E42DDB1D6588C000C82208 /* note1.png in Resources */,
+				54E42DDD1D6588C000C82208 /* note3.png in Resources */,
 				545402931D64A4AF005438FB /* Main.storyboard in Resources */,
+				54E42DDA1D6588C000C82208 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +320,7 @@
 				545402A11D64A4AF005438FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
